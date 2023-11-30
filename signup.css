@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999999;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.smaindiv{
+    /* background-color: #b3b3b3; */
+    box-shadow: 1px 3px 10px black;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+input{
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.lname,.fname{
+    border-radius: 5px;
+    background-color: transparent;
+    border-style: none;
+    padding: 10px;
+    /* font-weight: 900; */
+    box-shadow: 0px 2px 5px black;
+    width: 400px;
+    outline: none;
+    font-size: medium;
+}
+
+.btn{
+    /* margin-left:55px; */
+    border-radius: 5px;
+    margin: 20px;
+    border-style: none;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+    box-shadow: 0px 2px 5px black;
+    margin-right: 50px;
+    font-size: large;
+    /* font-weight: 700; */
+}
+
+.sbutton{
+    display: flex;
+    justify-content: center;
+}
+
+.already{
+    font-size: large;
+    margin-left: 32px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.inp{
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    box-shadow: 0px 2px 5px black;
+    font-size: medium;
+    width: 400px;
+    margin-right: 300px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    *{
+        box-sizing: border-box;
+    }
+
+    .smaindiv{
+        box-shadow: 1px 3px 10px black;
+        border-radius: 10px;
+        width: 300px;
+        height: 400px;
+    }
+
+    h1{
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    
+    .inp{
+        width: 220px;
+        padding: 5px;
+    }
+
+    input{
+        margin-bottom: 3px;
+    }
+
+    .lname,.fname{
+        width: 220px;
+        padding: 5px;
+    }
+
+    .btn{
+        padding: 5px;
+        margin: 30px;
+        margin-bottom: 20px;
+    }
+
+    .already{
+        font-size: 18px;
+        margin-right: 10px;
+        margin-left: 0px;
+        /* margin-bottom: 15px; */
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smaindiv{
+        width: 400px;
+    }
+
+    .inp{
+        width: 300px;
+    }
+
+    .lname,.fname{
+        width: 300px;
+    }
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 321px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smaindiv{
+        width: 200px;
+        height: 300px;
+        margin: 0px;
+    }
+
+    h1{
+        font-size: medium;
+        margin: 0px;
+        margin-top: -20px;
+        margin-bottom: 10px;
+    }
+
+    .inp{
+        width: 130px;
+        margin-left: -10px;
+        padding: 3px;
+        font-size: medium;
+        font-weight: 100;
+    }
+
+    .fname,.lname{
+        width: 130px;
+        margin-left: -10px;
+        padding: 3px;
+        font-weight: 100;
+        font-size: medium;
+    }
+
+    input{
+        margin-bottom: 3px;
+    }
+
+    .btn{
+        padding: 3px;
+        margin-left: 8px;
+        /* margin-right: 18px; */
+        font-size: medium;
+    }
+
+    .already{
+        font-size: small;
+        margin-left: 1px;
+        margin-right: 0px;
+    }
+}
+    
